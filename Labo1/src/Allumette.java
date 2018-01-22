@@ -68,14 +68,13 @@ public class Allumette {
                     tours++;
                 }
             }
-            else if (game==2){
+            else if (game==2){//Ignorez IA
                 System.out.println("Il y a "+nbAllu+" allumettes");
                 joueur[0] = nom1;
                 joueur[1] = nom2;
                 while(nbAllu>0){
                     for (int i=0;i<2;i++){
                         gagnant=i;
-                        if ()
                         System.out.println(joueur[i]+", combien d'allumette veut tu enlever? ");
                         enlever = sc.nextInt();
                         if (enlever>=1&&enlever<=3){
